@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*头部代码*/
+header{background-color: #bd2e4a;}
+.header_left{line-height: 3rem;height: 3rem;width: 25%;}
+.header_left i{height: 3rem; color: #fff;display: block; margin: 0 auto;
+    font-size: 1.9rem;line-height: 3rem;padding-left: 20%;}
+.header_right{width: 75%; padding:0.7rem 8% 0.7rem 0;position: relative;}
+.header_right input{width: 100%; height: 1.6rem;border-radius: 0.3rem;border: none;padding-left: 5%;font-size: 1rem;}
+.header_right img{display: block; width: 1.1rem;height: 1.1rem;position: absolute; top:0.9rem;right: 12%; }
+/*主体内容*/
+section{background-color: #eeeeee;padding-bottom: 0.5rem;}
+.food{color: #666;font-size: 1rem;}
+.food_more{width: 100%;padding: 1.6rem 3%;}
+.food_more li{width: 25%;text-align: center;}
+.food_more li a{display: block;width: 4.5rem;height: 4.5rem;margin: 0 auto;background-color: #fff;border-radius: 50%;line-height: 4.5rem; color: #212121;}
+.list{width: 100%;padding: 0 3%;}
+.list li{width: 49%;padding: 0.2rem 2%;background-color: #fff;margin-bottom: 0.4rem;}
+.list li.marginr{margin-right: 2%;}
+.list li a{display: block;position: relative;}
+.list li a img{width:100%;height: auto; }
+.title{padding: 0.3rem 0;height: 2.5rem;overflow: hidden;}
+.title span{font-size: 0.9rem;line-height: 120%;color: #333;vertical-align:top;}
+.title span:first-child{display: block;border-right:1px #333333 solid;color: #333333;font-size: 0.9rem; line-height: 120%;padding-right: 0.5rem;margin-right: 0.5rem;}
+.number{width: 100%; font-size: 0.8rem;color: #a6a6a6;border-bottom: 1px #eeeeee solid;  line-height: 200%;padding-bottom: 0.4rem; height: 2rem;}
+.price p:first-child{color: #f9a965;font-size: 1.5rem;line-height: 1.6rem;}
+.price p:first-child span{font-size: 0.6rem;}

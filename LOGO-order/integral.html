@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="duanliang, duanliang920.com" />
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_integral.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="clearf">
+    <div class="header_left fl"><i class="fa fa-angle-left"></i></div>
+    <p class="header_right fl">我的积分</p>
+    <div class="header_left fr"></div>
+</header>
+<section>
+    <div class="integral">
+        <div class="pic"><div class="pic1 absmiddle"><i class="fa fa-trophy"></i></div></div>
+        <p>我的积分：0.0</p>
+    </div>
+</section>
+
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script>
+    window.onload=function(){
+        fontSelf();
+        $('body').height($(window).height());
+    };
+    function fontSelf() {
+        var wHtml = document.getElementById('html');
+        var w = document.documentElement.clientWidth;
+        w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+        wHtml.style.fontSize = w * 0.045 + 'px';
+        window.onresize = function () {
+            var w = document.documentElement.clientWidth;
+            w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+            wHtml.style.fontSize = w * 0.045 + 'px';
+        };
+    };
+</script>
+</body>
+</html>

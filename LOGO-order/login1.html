@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="duanliang, duanliang920.com" />
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_login1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="clearf">
+    <div class="header_left fl"><i class="fa fa-angle-left"></i></div>
+    <p class="header_right fl">登录</p>
+    <div class="header_left fr"></div>
+</header>
+<section>
+    <form>
+        <input type="text" placeholder="手机号/邮箱" class="phone"/>
+        <input type="password" placeholder="登录密码" class="password"/>
+        <input type="submit" value="登录" class="submit"/>
+    </form>
+    <p class="clearf problem">
+        <a href="#" class="fl">通过短信验证码登陆</a>
+        <a href="#" class="fr">登录遇到问题？</a>
+    </p>
+    <div class="other">
+        <p>或其他方式快速登录</p>
+        <div class="clearf other_btn">
+            <a href="#" class="fl"><img src="img/login_btn1.png"/></a>
+            <a href="#" class="fl"><img src="img/login_btn2.png"/></a>
+            <a href="#" class="fl"><img src="img/login_btn3.png"/></a>
+        </div>
+
+    </div>
+</section>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script>
+    window.onload=function(){
+        fontSelf();
+        $('body').height($(window).height());
+    };
+    function fontSelf() {
+        var wHtml = document.getElementById('html');
+        var w = document.documentElement.clientWidth;
+        w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+        wHtml.style.fontSize = w * 0.045 + 'px';
+        window.onresize = function () {
+            var w = document.documentElement.clientWidth;
+            w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+            wHtml.style.fontSize = w * 0.045 + 'px';
+        };
+    };
+</script>
+</body>
+</html>

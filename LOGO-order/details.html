@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="duanliang, duanliang920.com" />
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_details.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="clearfix">
+    <div class="header_left fl"><i class="fa fa-angle-left"></i></div>
+    <p class="header_right fl">红酒炖牛腩</p>
+    <div class="header_left fr tr"><img src="img/details_shop.png"/><p>1</p></div>
+</header>
+<section>
+    <p class="title clearfix">
+        <span class="fl">荣欣堂</span>
+        <span>太谷饼传统老字号500g太谷饼传统老字号500g太谷饼传统老字号500g</span>
+    </p>
+    <div class="share clearfix">
+        <p class="fl"><span>￥</span>19.3</p>
+        <ul class="clearfix fr">
+            <li class="fl"><a href="#"><img src="img/details_share1.png"/></a></li>
+            <li class="fl"><a href="#"><img src="img/details_share2.png"/></a></li>
+            <li class="fl"><a href="#"><img src="img/details_share3.png"/></a></li>
+            <li class="fl"><a href="#"><img src="img/details_share4.png"/></a></li>
+        </ul>
+    </div>
+    <div class="grade ">
+        <ul class="clearfix">
+            <li class="fl tl">评分<span>4.5</span></li>
+            <li class="fl tc">月销<span>348</span></li>
+            <li class="fl tr">已售<span>2258</span></li>
+        </ul>
+    </div>
+    <ul class="shop clearfix">
+        <li class="fl"><img src="img/details_head.png"/> </li>
+        <li class="fl">
+            <p class="shop_p1">商铺名称</p>
+            <p class="shop_p2">优惠活动 全场包邮  满100送20元现金券</p>
+        </li>
+    </ul>
+    <div class="shop_in"><a href="#">进入商铺</a></div>
+    <div class="details_details"><img src="img/details_details.jpg"/></div>
+</section>
+<footer>
+    <ul class="clearfix">
+        <li class="fl borderr">
+            <a href="#" class="colff">
+                加入购物车
+            </a>
+        </li>
+        <li class="fl borderr">
+            <a href="#" class="colff">
+                立即购买
+            </a>
+        </li>
+    </ul>
+</footer>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script>
+    window.onload=function(){
+        fontSelf();
+        $('footer ul li:nth-child(2n)').removeClass('borderr') ;
+    };
+    function fontSelf() {
+        var wHtml = document.getElementById('html');
+        var w = document.documentElement.clientWidth;
+        w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+        wHtml.style.fontSize = w * 0.045 + 'px';
+        window.onresize = function () {
+            var w = document.documentElement.clientWidth;
+            w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+            wHtml.style.fontSize = w * 0.045 + 'px';
+        };
+    };
+</script>
+</body>
+</html>

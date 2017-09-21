@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*头部代码*/
+body{background-color: #fff;}
+.header_left{line-height: 3rem;height: 3rem;width: 25%;}
+.header_left i{height: 3rem; color: #555555;display: block; margin: 0 auto;
+    font-size: 1.9rem;line-height: 3rem;padding-left: 20%;}
+.header_right{font-size: 1rem;line-height: 3rem;text-align: center;color: #555555;display: block; width: 50%;}
+/*主体内容*/
+section{background-color: #eeeeee;}
+.option{width: 100%;font-size: 0.9rem;padding: 0 3%;}
+.option li{width: 20%;}
+.option li a{display: block;width: 100%;line-height: 300%;background-color: #eee;font-size: 0.9rem;text-align: center;color: #555555;}
+.option li a.active{border-bottom: 3px #bd2e4a solid;}
+
+.shop_name{width: 100%; padding: 0 3%;background-color:#fff;margin-bottom: 1rem;position: relative;}
+.shop_name>p{width: 22rem;font-size: 1.2rem;color: #555555;line-height: 200%;background: url("../img/collect.png") no-repeat left center;background-size: 9% 40%; padding: 1rem 0 1rem 14%;}
+.shop_content{padding:0.6rem 0;border-top:1px #eeeeee solid; border-bottom:1px #eeeeee solid;}
+.collect_pic{display: block;width: 8rem;height: auto;}
+.commodity{font-size: 1rem;line-height: 120%;color: #333333;width: 40%;margin-left: 5%;}
+.commodity span{border-right: 1px #333333 solid;display: block;padding-right: 0.3rem;margin-right: 0.3rem;}
+.price{font-size: 1.2rem;color: #666666;line-height: 120%;}
+.price span{font-size: 0.7rem;}
+.price del{font-size: 0.9rem;color: #d0d0d0;}
+.price del span{font-size: 0.5rem;}
+.number{display: block;width: 2.5rem;height: 1.5rem;font-size: 0.9rem;color: #666666;border: 1px #e7e7e7 solid; line-height: 1.5rem;text-align: center;position: absolute;top:10.2rem;right: 0.5rem;}
+.total{width: 100%;text-align: right;font-size: 0.9rem;color: #333333;line-height: 300%;
+border-bottom: 1px #eeeeee solid;}
+.total span{color: #999999;}
+.affirm{padding: 1rem 0;padding-left:9rem; }
+.affirm a{display: block; width: 5.5rem; height: 1.8rem;text-align: center;line-height: 1.8rem;border-radius: 0.2rem;font-size: 0.9rem;}
+.affirm a:first-child{background-color: #bd2e4a;color: #fff;margin-right: 0.5rem;}
+.affirm a:last-child{background-color: #fff;color: #bd2e4a;border: 1px #bd2e4a solid;}

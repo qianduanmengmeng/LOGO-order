@@ -1,0 +1,43 @@
+{
+  "index.html": {
+    "resources": [
+      "img/phone_heart.png",
+      "img/phone_footer2.png",
+      "img/phone_recommend_pic.jpg",
+      "img/phone_footer3.png",
+      "img/phone_btn3.png",
+      "img/phone_btn1.png",
+      "img/phone_btn2.png",
+      "img/phone_footer1.png",
+      "css/style.css",
+      "img/phone_footer4.png",
+      "js/jquery-1.10.1.min.js",
+      "img/logo.jpg",
+      "css/common.css",
+      "img/phone_btn4.png",
+      "img/phone_seek.png",
+      "css/font-awesome.min.css",
+      "group_buying.html",
+      "img/phone_banner.jpg",
+      "img/phone_eye.png",
+      "img/phone_p2bg.png",
+      "img/phone_shop1.jpg"
+    ],
+    "refer": [
+      "group_buying.html"
+    ]
+  },
+  "group_buying.html": {
+    "resources": [
+      "img/group_list1.jpg",
+      "img/group_banner.jpg",
+      "index.html",
+      "css/fonts/fontawesome-webfont.woff2",
+      "img/group_reserve.png",
+      "css/style_group.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  }
+}

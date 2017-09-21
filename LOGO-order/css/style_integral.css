@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*头部代码*/
+body{background-color: #eeeeee;}
+header{background-color: #fff;}
+.header_left{line-height: 3rem;height: 3rem;width: 25%;}
+.header_left i{height: 3rem; color: #555555;display: block; margin: 0 auto;
+    font-size: 1.9rem;line-height: 3rem;padding-left: 20%;}
+.header_right{font-size: 1rem;line-height: 3rem;text-align: center;color: #555555;display: block; width: 50%;}
+/*主体内容*/
+section{}
+.integral{padding-top:3rem; }
+.pic{width: 6.5rem;height: 6.5rem;background-color: #d99eaa;border-radius: 50%;position: relative;margin: 0 auto;}
+.pic1{width: 6rem;height: 6rem;background-color: #bd2e4a;border-radius: 50%;}
+.pic1 i{display: block;text-align: center;line-height: 6rem;color: #fff;font-size: 2.6rem;}
+.integral p{width: 100%;text-align: center;margin-top: 1.5rem;font-size: 1.4rem;line-height: 120%;color: #555555;}

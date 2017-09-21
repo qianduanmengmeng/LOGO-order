@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*头部代码*/
+header{background-color: #fff;}
+.header_left{line-height: 3rem;height: 3rem;width: 25%;}
+.header_left i{height: 3rem; color: #555555;display: block; margin: 0 auto;
+    font-size: 1.9rem;line-height: 3rem;padding-left: 20%;}
+.header_right{font-size: 1rem;line-height: 3rem;text-align: center;color: #555555;display: block; width: 50%;}
+/*主体内容*/
+section{background-color: #eeeeee;padding: 1.6rem 3% 0.8rem;}
+.residue{width: 100%;font-size: 1.2rem;color: #555555;line-height: 200%}
+.privilege{width: 20.8rem;margin: 0 auto;}
+.privilege li a{display: block;width: 20.8rem;background: url("../img/privilege_bg.png") no-repeat; background-size: 100% 100%;height: 6.3rem;padding: 0.8rem;}
+.privilege li a .privilege_p1{color: #333333;font-size: 1.2rem;line-height: 150%;}
+.privilege li a .privilege_p2,.privilege li a .privilege_p3{color: #666666;font-size: 1rem;line-height: 150%;}
+.privilege_right i{display: block;font-size: 1.5rem;line-height: 4rem; color: #999999;}

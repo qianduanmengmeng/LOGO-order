@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="duanliang, duanliang920.com" />
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_person.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="clearfix">
+    <div class="header_left fl"><i class="fa fa-angle-left"></i></div>
+    <p class="header_right fl">个人中心</p>
+    <div class="header_left fr tr"><i class="fa fa-cog"></i></div>
+</header>
+<section>
+    <div class="banner">
+        <img src="img/person_banner.jpg"/>
+        <div class="head_portrait">
+            <img src="img/person_head_portrait.jpg" class="absmiddle"/>
+        </div>
+        <p>欢迎回来</p>
+    </div>
+    <ul class="person">
+        <li><a href="#" class="clearfix"><i class="fa fa-heart-o fl"></i><span class="fl">我的收藏</span><i class="fa fa-angle-right fr"></i></a></li>
+        <li><a href="#" class="clearfix"><i class="fa fa-file-text-o fl"></i><span class="fl">我的订单</span><i class="fa fa-angle-right fr"></i></a></li>
+        <li><a href="#" class="clearfix"><i class="fa fa-money fl"></i><span class="fl">我的优惠</span><i class="fa fa-angle-right fr"></i></a></li>
+        <li><a href="#" class="clearfix"><i class="fa fa-trophy fl"></i><span class="fl">我的积分</span><i class="fa fa-angle-right fr"></i></a></li>
+        <li><input type="button" value="退出登录"/></li>
+    </ul>
+</section>
+<footer>
+    <ul class="clearfix">
+        <li class="fl">
+            <a href="index.html">
+                <img src="img/phone_footer1.png" /><br/>
+                <span>首页</span>
+            </a>
+        </li>
+        <li class="fl">
+            <a href="group_buying.html">
+                <img src="img/phone_footer2.png" /><br/>
+                <span>分类</span>
+            </a>
+        </li>
+        <li class="fl">
+            <a href="#">
+                <img src="img/phone_footer3.png" /><br/>
+                <span>购物车</span>
+            </a>
+        </li>
+        <li class="fl">
+            <a href="#">
+                <img src="img/phone_footer4.png" /><br/>
+                <span>我的</span>
+            </a>
+        </li>
+    </ul>
+</footer>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script>
+    window.onload=function(){
+        fontSelf();
+    };
+    function fontSelf() {
+        var wHtml = document.getElementById('html');
+        var w = document.documentElement.clientWidth;
+        w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+        wHtml.style.fontSize = w * 0.045 + 'px';
+        window.onresize = function () {
+            var w = document.documentElement.clientWidth;
+            w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+            wHtml.style.fontSize = w * 0.045 + 'px';
+        };
+    };
+</script>
+</body>
+</html>

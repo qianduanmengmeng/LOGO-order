@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*头部代码*/
+header{background-color: #bd2e4a;}
+.header_left{line-height: 3rem;height: 3rem;width: 25%;}
+.header_left i{height: 3rem; color: #fff;display: block; margin: 0 auto;
+    font-size: 1.9rem;line-height: 3rem;padding:0 20%;}
+.header_right{font-size: 1rem;line-height: 3rem;text-align: center;color: #fff;display: block; width: 50%;}
+/*主体内容*/
+section{background-color: #fff;padding-bottom: 3.2rem;}
+.banner{width: 100%;position: relative;}
+.banner img{width: 100%;height: auto;}
+.head_portrait{position: absolute;top: 50%;left: 50%;width: 6rem;height: 6rem;margin-left: -3rem;margin-top: -4rem;background-color: rgba(225,225,225,0.6);border-radius: 50%;}
+.head_portrait img{width: 5.2rem;height: 5.2rem;border-radius: 50%;display: block;}
+.banner p{width: 100%;position: absolute;top: 50%;left: 0;margin-top: 2.5rem;font-size: 1.6rem;color: #fff;text-align: center; line-height: 100%;}
+.person{width: 100%;padding: 3rem 3%;}
+.person a{display: block; width: 100%;border-bottom: 1px #eeeeee solid;}
+.person a i{display: block; width: 15%; text-align: center;font-size: 1.6rem;color: #666666;line-height: 3rem;}
+.person a span{display: block;width: 70%;font-size: 1.2rem;color: #666666;line-height: 3rem;}
+.person input{display: block;margin: 5rem auto;width: 90%;height: 3rem;color: #fff;background-color: #bd2e4a;border: none;border-radius: 0.5rem;font-size: 1.1rem; cursor:pointer;}
+/*底部导航*/
+footer{height: 3.2rem;background-color: #bd2e4a;position: fixed;bottom: 0;left: 0;width: 100%;padding: 0.3rem 0;}
+footer li{width: 25%;text-align: center;}
+footer li a img{width: 1.6rem; height: auto;}
+footer li a span{font-size: 0.8rem;color: #fff;line-height: 150%;}

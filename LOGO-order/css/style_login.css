@@ -1,0 +1,5 @@
+body{background: #f7f7f5;}
+.lead_bg{width: 100%;}
+.lead_bg img {display: block;width: 100%;height:auto;}
+a.goin1{width: 45%;height: 2.3rem;border: 1px #bd2e4a solid;color: #bd2e4a;border-radius: 1.1rem;display: block;margin:0 auto 1.5rem;text-align: center;line-height: 2.3rem;font-size: 1.1rem;}
+a.goin2{width: 45%;height: 2.3rem;background-color:#bd2e4a;color: #fff;border-radius: 1.1rem;display: block;margin:0 auto 1.5rem;text-align: center;line-height: 2.3rem;font-size: 1.1rem;}

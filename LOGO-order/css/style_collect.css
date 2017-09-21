@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*头部代码*/
+body{background-color: #fff;}
+.header_left{line-height:3rem;height:3rem;width:25%;}
+.header_left i{height:3rem;color:red;display:block;margin:0 auto;
+font-size:1.8rem;padding-left:30%;line-height:3rem;}
+.header_right{font-size:1rem;color:#555;line-height:3rem;text-align:center;width:50%;}
+/*主体内容*/
+section{background-color:#EEEEEE;padding-top:1rem;}
+.shop_name{width:100%;background-color: #fff;padding:0 3%;}
+.shop_name>p{width:42rem;font-size:1.4rem;color:#555555;line-height:200%;background: url("../img/collect.png") no-repeat left center;background-size:9% 65%;padding-left:14%;}
+.shop_content{padding:1rem 0;border-top:1px #EEEEEE solid;border-bottom:1px #EEEEEE solid;}
+.collect_pic{display:block;width:8rem;height:auto;}
+.commodity{font-size: 1rem;line-height: 120%;color: #333333;width: 40%;margin-left: 5%;}
+.commodity span{border-right:1px #333333 solid;display:block;padding-right:0.3rem;margin-right:0.3rem;}
+.price{font-size:1.1rem;color:#666666;line-height:120%;}
+.price span{font-size:0.7rem;}

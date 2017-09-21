@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="duanliang, duanliang920.com" />
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_privilege.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="clearfix">
+    <div class="header_left fl"><i class="fa fa-angle-left"></i></div>
+    <p class="header_right fl">我的优惠</p>
+    <div class="header_left fr"></div>
+</header>
+<section>
+    <p class="residue">
+        未使用的优惠劵
+    </p>
+    <ul class="privilege clearfix">
+        <li class="">
+            <a href="#" class="clearfix">
+                <div class="privilege_left fl">
+                    <p class="privilege_p1">满50元减10元</p>
+                    <p class="privilege_p2">使用范围: 全场</p>
+                    <p class="privilege_p3">有效期至: 07月13号</p>
+                </div>
+                <div class="privilege_right fr"><i class="fa fa-angle-right"></i></div>
+            </a>
+        </li>
+        <li class="">
+            <a href="#" class="clearfix">
+                <div class="privilege_left fl">
+                    <p class="privilege_p1">满100元减20元</p>
+                    <p class="privilege_p2">使用范围: 全场</p>
+                    <p class="privilege_p3">有效期至: 07月13号</p>
+                </div>
+                <div class="privilege_right fr"><i class="fa fa-angle-right"></i></div>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script>
+    window.onload=function(){
+        fontSelf();
+        $('body').height($(window).height());
+    };
+    function fontSelf() {
+        var wHtml = document.getElementById('html');
+        var w = document.documentElement.clientWidth;
+        w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+        wHtml.style.fontSize = w * 0.045 + 'px';
+        window.onresize = function () {
+            var w = document.documentElement.clientWidth;
+            w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+            wHtml.style.fontSize = w * 0.045 + 'px';
+        };
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="duanliang, duanliang920.com" />
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/validationEngine.jquery.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style_login2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="clearf">
+    <div class="header_left fl"><i class="fa fa-angle-left"></i></div>
+    <p class="header_right fl">手机注册</p>
+    <div class="header_left fr"></div>
+</header>
+<section>
+    <form id="form_id">
+        <input type="text" name="mobile" class="validate[required,custom[mobile]] phone" placeholder="请输入手机号" data-prompt-position="bottomLeft:10,1"/>
+        <label for="verification" class="f_verification"><input type="text" id="verification"  class="verification" placeholder="请输入短信验证码"/><a href="#">获取验证码</a></label>
+        <input id="password" type="password"  name="password" class="validate[required,custom[onlyLetterNumber],minSize[6],maxSize[12]] password" placeholder="设置密码" data-prompt-position="bottomLeft:10,1"/>
+        <input type="submit" value="注册" class="submit"/>
+    </form>
+</section>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.validationEngine-zh_CN.js"></script>
+<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+<script>
+    window.onload=function(){
+        fontSelf();
+        $('#form_id').validationEngine();
+        var Scroll = new iScroll('wrapper',{vScroll:false,hScrollbar:false,vScrollbar:false});
+    };
+    function fontSelf() {
+        var wHtml = document.getElementById('html');
+        var w = document.documentElement.clientWidth;
+        w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+        wHtml.style.fontSize = w * 0.045 + 'px';
+        window.onresize = function () {
+            var w = document.documentElement.clientWidth;
+            w > 768 ? w = 768 : w = document.documentElement.clientWidth;
+            wHtml.style.fontSize = w * 0.045 + 'px';
+        };
+    };
+</script>
+</body>
+</html>
